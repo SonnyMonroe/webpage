@@ -1,14 +1,27 @@
+*{
+    background-image: url(images/stockbackground2.jpg);
+    background-repeat: repeat-y repeat-x;
+    color:white;
+    opacity: 1.0;
+}
+
 h1 {
-    color: rgba(255,0,0,1); 
+    color: rgba(255,0,0,1);
+    background-color: gray;
 }
 
 h2 {
     color: #fff000;
+    background-color: black;
+    opacity: 0.6;
 }
 
 p {
     color:rgb(19, 90, 51)
+    background-color rgb (10, 77, 2)
 }
+
+
 /* comments 
 rgba stands for red green blue alpha....
 the alpha just means you have to add another value to the end of rgb.
@@ -23,5 +36,14 @@ Hue ranges from 0 - 360
 Saturation 0% - 100%
 Lighness 0% - 100% 
 hsl will populate the with (Hue, Saturation, Lightness) Just delete the letetrs and input number values
+
+Opacity sets the transparency for the entire element (both the text and background)
+Opacity property value must be between 0.0 (fully transparent) and 1.0 (fully opaque)
+
+h2 {        #Example of css syntax for colors
+    color: #fff000;
+    background-color: black;
+    opacity: 0.6;
+}
 
 */
