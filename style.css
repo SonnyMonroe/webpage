@@ -5,9 +5,9 @@
 }
 
 *{
-    background-image: url(images/stockbackground2.jpg);
+    background-image: url(images/space.jpg);
     background-repeat: no-repeat;
-    color:white;
+    color:royalblue;
     background-attachment: fixed;
     opacity: 1.0;
 }
